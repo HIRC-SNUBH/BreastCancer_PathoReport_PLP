@@ -2,7 +2,6 @@ Package: BreastCancerPLP
 Title: Transforming Unstructured Breast Cancer Pathology Reports into the OMOP-Common Data Model - Patient Prediction Model Part
 Version: 1.0.0
 Authors@R: c(
-    person("Jo", "Doe", , "jodoe@dom.ain", role = c("aut", "cre")),
     person("Borham", "Kim", role = "aut"),
     person("Wongeun", "Song", role = "aut"),
     person("Eunsil", "Yoon", role = "aut"),
