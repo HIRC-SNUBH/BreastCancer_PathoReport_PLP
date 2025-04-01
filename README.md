@@ -5,7 +5,7 @@ This repository contains R scripts and configurations used to perform patient-le
 ---
 
 ## Repository Structure
-
+```
 ├── config/ # Database connection settings 
 ├──covariates # Covariates Concept ID 
 ├──library # Patient Level Prediction Libraries
@@ -13,7 +13,7 @@ This repository contains R scripts and configurations used to perform patient-le
 ├── report_plp_result.r # Script for generating the analysis report 
 ├── DESCRIPTION # Metadata for R package-style usage (optional) 
 └── README.md # This document
-
+```
 ---
 
 ## Execution Guide
