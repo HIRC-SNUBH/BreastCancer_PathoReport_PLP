@@ -18,6 +18,19 @@ This repository contains R scripts and configurations used to perform patient-le
 
 ## Execution Guide
 
+### Prerequisites
+
+Before running the breast cancer patient-level prediction, ensure the following requirements are met:
+
+1. **Target Cohort**
+   - Define a cohort of **female patients with breast cancer pathology reports**.
+   - Index date (cohort_start_date) should be defined as the date of the first breast cancer pathology report.
+2. **Outcome Cohort Definition**
+   - Define a cohort of **patients with death events (in-hospital or out-of-hospital)**, based on data from the **cancer registry**.
+3. **CDM Version**
+   - A database built on **OMOP Common Data Model (CDM) version 5.4 or higher** is required.
+
+
 ### 1. Running the Patient-Level Prediction
 
 To execute the PLP analysis:
